@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #00bbf0, rgb(62, 5, 44));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* main section */
+#first {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#first h1{
+    font-weight: bold;
+    color: rgb(62, 5, 44);
+    text-shadow: 0 -2px 0px black;
+    animation: slide 1s;
+}
+@keyframes slide{
+    from{
+        margin-right: -30%;
+    }
+    to{
+        margin-right: 0%;
+    }
+}
+
+#add,#sub,#mul,#divide,#result {
+    display: none;
+}
+
+/* row */
+#r1, #r2{
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* form */
+.form{
+    width: fit-content;
+    background-color: #00bbf0;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px;
+}
+
+/* space the inbetween content using tagName */
+h4, h1, input,button{
+    margin: 20px;
+}
+
+/* questions */
+.questions{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* input tag */
+input{
+    
+    box-sizing: border-box;
+    border-color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* button */
+button{
+    padding: 5px;
+    height: 50px;
+    width: 250px;
+    font-size: x-large;
+    font-weight: 500;
+    background-color: rgb(62, 5, 44);
+    color: whitesmoke;
+}
+
+
