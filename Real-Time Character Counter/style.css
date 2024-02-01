@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to right, blue, yellow);
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    border: 3px solid;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.textarea{
+    resize: none;
+    padding: 10px;
+    height:  90%;
+    width: 100%;
+    border: 2px solid gray;
+    align-items: start;
+}
+p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 10px;
+}
+#total{
+    font-weight: 500;
+    color: darkgreen;
+    
+}
+#balance{
+    font-weight: 600;
+    color: red;
+}
+.container-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+}
